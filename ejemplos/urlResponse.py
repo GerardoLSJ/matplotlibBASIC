@@ -20,7 +20,6 @@ responseTime("http://www.unam.mx/")
 responseTime("http://gadmaweb.com/")
 responseTime("http://www.gigigo.com/app/es/home")
 
-
 from matplotlib import pyplot as plt
 from matplotlib import style
 
@@ -29,15 +28,7 @@ style.use('ggplot')
 x = [1,3,5,7,9,11]
 y = timeArray
 
-#x2 = [2,4,6]
-#y2 = [6,15,7]
-
-
 plt.bar(x, y, align='center')
-
-#plt.bar(x2, y2, color='g', align='center')
-
-
 plt.title('Response time')
 plt.ylabel('Time')
 plt.xlabel('Url')
